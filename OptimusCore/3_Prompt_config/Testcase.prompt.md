@@ -142,17 +142,17 @@ TC ID,Test Type,Test Case Name,Description,Action,Expected Result,Test Repositor
    - Priority
    - Scenario Type
 3. **Subsequent rows for the same test case** contain:
-   - TC ID: Same as first row
+   - TC ID: Same as second row
    - Test Type: Empty
    - Test Case Name: Empty
    - Description: Empty
    - Action: Next Action step (numbered as "2. ", "3. ", etc.) - IN THE ACTION COLUMN ONLY
    - Expected Result: Next Expected Result (numbered as "2. ", "3. ", etc.) - IN THE EXPECTED RESULT COLUMN ONLY
    - Test Repository Path: Empty
-   - Status: Empty
+   - Status: complete 
    - Components: Empty
    - User Story ID: Empty
-   - Priority: Empty
+   - Priority: High
    - Scenario Type: Empty
 4. Escape commas within fields using double quotes
 5. Escape double quotes within fields by doubling them ("")
@@ -169,7 +169,7 @@ TC ID,Test Type,Test Case Name,Description,Action,Expected Result,Test Repositor
 - Include scope considerations (e.g., Domestic, Produced) 
 - Ensure all transaction types mentioned in the user story are covered:
   - New Business
-  - Policy Change (Inception, Midterm, Out of Sequence, Preemption)
+  - Policy Change (Inception, Midterm, Out of Sequence)
   - Cancel (Flat, Pro rata & Short rate)
   - Reinstatement
   - Rewrite Full Term
